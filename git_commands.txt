@@ -30,8 +30,35 @@ git push origin <branch>
 
 
 # Check logs
-git logs
-
+git log
+git log --graph   ->   Shows a graph like a timeline for all commits
+git log --graph --pretty=oneline  ->   Shows timeline but shorter version
+git log --graph --decorate --all --oneline  ->  Shows timeline but shorter version but decorates all of them
 
 # Check for status
 git status  ->  Checks for pending commits and pending pushes
+
+
+# Return to previous image
+git checkout file  ->  It will return to the previous image
+git reset   ->   It will return all unhashed files to the last state
+
+
+# Git Alias
+git config --global alias.tree "log --graph --decorate --all --oneline"  ->   Creates an alias names tree so I do not need to write the command every time
+
+# to run:
+
+git tree 
+
+# Git ignore
+1) Create a file named .gitignore
+2) Enter the file names or folders that would like to skip 
+3) Save and it will do automatically
+
+
+## Git Diff - Compares existing last hashed image to unhashed changes
+git diff
+
+
+# Desplazamiento
