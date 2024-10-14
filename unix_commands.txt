@@ -1,0 +1,6 @@
+ls -> list directory
+cd <folder>  ->  change directory
+cd .. -> go back from current directory
+pwd -> shows route where you are
+mkdir <folder>  ->  Creates a new folder
+touch <file>.<extension>  ->  Creates a new file

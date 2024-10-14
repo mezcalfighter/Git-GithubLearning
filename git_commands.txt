@@ -1,0 +1,37 @@
+## Configure git - It requires email and name at very minimum
+git config --global user.email "my email"
+git config --global user.name "my name"
+
+
+# Starts a new project with git
+git init -> Initialize a new git project
+
+
+# Create a new branch
+git branch -m <name>  -> Creates a nbew branch name and switches to that branch
+git branch -m main
+
+
+# Push and add tracker to changes (creates an image to the project)
+git add <file name>
+git add example.py
+
+or
+
+git add .  ->  Adds every file with a change (new or existing)
+
+
+# Commit changes
+git commit -m "comments" ->  Commits all files added on the previous image and add the comment
+
+
+# Push changes to Github
+git push origin <branch>
+
+
+# Check logs
+git logs
+
+
+# Check for status
+git status  ->  Checks for pending commits and pending pushes
